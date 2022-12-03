@@ -1,5 +1,5 @@
 import React from "react"
-
+import angle from "../assets/angle_down.svg"
 export const Intro = () => {
     return (
         <section className="section--intro">
