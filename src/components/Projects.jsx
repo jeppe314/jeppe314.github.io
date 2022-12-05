@@ -17,8 +17,10 @@ export const Projects = () => {
 
     return (
         <section className="section--projects">
-            Projects
-            {projectsEl}
+            <div className="projects--title">
+                <h1>Projects</h1>
+            </div>
+            <div className="projects--grid">{projectsEl}</div>
         </section>
     )
 }

@@ -20,4 +20,25 @@ export const ProjectsData = [
             bio: "This is the bio for pxlguessr",
         },
     ],
+    [
+        {
+            name: "PxlGuessr",
+            src: "./images/pxlguessr.png",
+            bio: "This is the bio for pxlguessr",
+        },
+    ],
+    [
+        {
+            name: "PxlGuessr",
+            src: "./images/pxlguessr.png",
+            bio: "This is the bio for pxlguessr",
+        },
+    ],
+    [
+        {
+            name: "PxlGuessr",
+            src: "./images/pxlguessr.png",
+            bio: "This is the bio for pxlguessr",
+        },
+    ],
 ]

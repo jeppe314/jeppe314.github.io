@@ -8,6 +8,10 @@ body {
     background-color: rgb(180, 158, 60);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 p {
     margin: 0;
 }
@@ -105,12 +109,18 @@ header {
     align-items: center;
     justify-content: flex-start;
     gap: 2em;
-    padding: 1em 0;
+    padding: 1em;
+}
+
+.projects--grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2em;
 }
 
 .project {
     height: 60vh;
-    width: 80%;
     background: #273036;
     padding: 1em;
     border-radius: 10px;
@@ -128,4 +138,9 @@ header {
 .bio--div {
     height: 50%;
     overflow: scroll;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1000px) {
 }
