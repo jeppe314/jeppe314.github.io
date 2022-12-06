@@ -4,34 +4,34 @@ import "./Typist.css"
 
 export default function JesperObject() {
     return (
-        <div className=" text-[2vmax] lg:text-[1.5vmax]">
+        <div className="jesper">
             <p>
-                <Typist avgTypingDelay={25} className="h-full">
+                <Typist avgTypingDelay={25}>
                     <Typist.Delay ms={2000} />
                     <span style={{ color: "#3e99ec" }}>const </span>
                     devlepoer =
                     <Typist.Backspace count={11} delay={500} />
                     developer = <span style={{ color: "#fc00f2" }}>&#123;</span>
                     <br />
-                    <span className="ml-4">name: </span>
+                    <span>name: </span>
                     <span style={{ color: "#d87832" }}>
                         "Jesper Olof Lindqvist"
                     </span>
                     ,
                     <br />
-                    <span className="ml-4">age: </span>
+                    <span>age: </span>
                     <span style={{ color: "#c5f478" }}>29</span>,
                     <br />
-                    <span className="ml-4">nationality: </span>
+                    <span>nationality: </span>
                     <span style={{ color: "#3e99ec" }}>[</span>
                     <span style={{ color: "#d87832" }}>"Finland"</span>,{" "}
                     <span style={{ color: "#d87832" }}>"Åland"</span>
                     <span style={{ color: "#3e99ec" }}>]</span>,
                     <br />
-                    <span className="ml-4">location: </span>
+                    <span>location: </span>
                     <span style={{ color: "#d87832" }}>"Stockholm"</span>,
                     <br />
-                    <span className="ml-4">interests: </span>
+                    <span>interests: </span>
                     <br />
                     <span style={{ color: "#3e99ec" }}>[</span>
                     <span style={{ color: "#d87832" }}>"WebDev"</span>,{" "}
