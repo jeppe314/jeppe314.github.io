@@ -1,3 +1,8 @@
+// COLORS //
+
+$base: #273036;
+$secondary: #b49e3c;
+
 html,
 body {
     font-family: Bahnschrift, Avenir, Helvetica, Arial, sans-serif;
@@ -54,7 +59,7 @@ header {
 .section--intro {
     /* background-image: url("./assets/images/forest.jpg"); */
     height: 100vh;
-    background-color: #273036;
+    background-color: $base;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -73,7 +78,7 @@ header {
 
 .section--skills {
     height: 100vh;
-    background-color: #273036;
+    background-color: $base;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +110,7 @@ header {
 }
 
 .jesper--div {
-    background-color: #273036;
+    background-color: $base;
     padding: 1em;
     height: 50%;
     width: 100%;
@@ -134,7 +139,7 @@ header {
 
 .project {
     height: 60vh;
-    background: #273036;
+    background: $base;
     padding: 1em;
     border-radius: 10px;
 }
