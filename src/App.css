@@ -164,4 +164,12 @@ a:active {
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 1000px) {
+    .section--about {
+        flex-direction: row;
+    }
+
+    .jesper--div {
+        height: 70%;
+        font-size: 1.6em;
+    }
 }
