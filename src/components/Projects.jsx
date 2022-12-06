@@ -10,6 +10,7 @@ export const Projects = () => {
                 src={project[0].src}
                 name={project[0].name}
                 bio={project[0].bio}
+                url={project[0].url}
                 key={nanoid()}
             />
         )

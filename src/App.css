@@ -97,9 +97,22 @@ header {
 
 .section--about {
     height: 100vh;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
     align-items: center;
     padding: 2em;
+}
+
+.jesper--div {
+    background-color: #273036;
+    padding: 1em;
+    height: 50%;
+    width: 100%;
+}
+
+.about--text {
+    height: 50%;
 }
 
 .section--projects {
@@ -115,7 +128,7 @@ header {
 .projects--grid {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 2em;
 }
 
@@ -126,10 +139,18 @@ header {
     border-radius: 10px;
 }
 
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .img--div {
     width: 100%;
     height: 50%;
-    background-position: 50% 53%;
+    background-position: 50% 43%;
     background-size: cover;
     border-radius: 10px;
     opacity: 0.7;
