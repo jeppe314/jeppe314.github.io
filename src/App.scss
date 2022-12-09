@@ -140,9 +140,13 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 2em;
+    &:hover > :not(:hover) {
+        opacity: 0.5;
+    }
 }
 
 .project {
+    position: relative;
     height: 60vh;
     background: $base;
     padding: 1em;
@@ -152,8 +156,29 @@ header {
         rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.4);
+        -webkit-transition: none;
+        -moz-transition: none;
+        transition: none;
+    }
+
     &:hover {
         transform: scale(1.05);
+        &:after {
+            width: 120%;
+            background-color: rgba(255, 255, 255, 0);
+
+            -webkit-transition: all 0.4s ease-in-out;
+            -moz-transition: all 0.4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
     }
 }
 
