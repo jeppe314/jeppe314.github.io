@@ -5,10 +5,10 @@ import JesperObject from "./JesperObject"
 export const About = () => {
     return (
         <section className="section--about" style={{ position: "relative" }}>
+            <div className="about--text"></div>
             <div className="jesper--div">
                 <JesperObject />
             </div>
-            <div className="about--text"></div>
         </section>
     )
 }
