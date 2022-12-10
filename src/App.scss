@@ -3,6 +3,10 @@
 $base: #273036;
 $secondary: #b49e3c;
 
+h3 {
+    font-size: 2em;
+}
+
 h2 {
     font-size: 4em;
 }
@@ -113,12 +117,12 @@ header {
     display: grid;
     text-align: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 3em;
+    gap: 2em;
     margin: 10%;
 }
 
 .skillgrid > i {
-    font-size: 6em;
+    font-size: 8em;
     width: 100%;
 }
 
