@@ -20,7 +20,7 @@ export const Projects = () => {
         <section className="section--projects">
 
             <div className="projects--title">
-                <h1>Projects</h1>
+                <h2>Projects</h2>
             </div>
             <div className="projects--grid">{projectsEl}</div>
         </section>
