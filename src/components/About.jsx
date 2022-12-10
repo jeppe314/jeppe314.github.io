@@ -8,18 +8,9 @@ export const About = () => {
             <div className="jesper--div">
                 <JesperObject />
             </div>
-            <div className="about--text">
-                {/* <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque consectetur vehicula lorem id sodales. Cras vel
-                    dignissim elit. Cras ut nibh non diam cursus rutrum. Donec
-                    rhoncus sollicitudin augue, quis imperdiet eros bibendum ac.
-                    Cras bibendum euismod erat, at vulputate dui placerat sed.
-                </p> */}
-                {/* <img src="./images/jesperiskogen.jpg" alt="jesper" /> */}
-            </div>
+            <div className="about--text"></div>
         </section>
     )
 }
 
-// TODO image bigger no padding on about section 
+// TODO image bigger no padding on about section
