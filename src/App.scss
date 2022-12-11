@@ -138,6 +138,7 @@ header {
         padding: 1em;
         height: 50%;
         width: 100%;
+        border-radius: 0 0 10px 10px;
 
         .jesper {
             font-family: "Cascadia Code", "Bahnschrift";
@@ -146,10 +147,15 @@ header {
 
     .about--text {
         width: 100%;
-        height: 100%;
-        background-image: url("./images/jesperiskogen.jpg");
-        background-size: cover;
-        background-position: 50% 35%;
+        height: 50%;
+
+        .jesper-img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px 10px 0 0;
+            object-position: 50% 35%;
+        }
     }
 }
 
