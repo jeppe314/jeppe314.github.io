@@ -17,7 +17,7 @@ body {
     font-size: 24px;
     margin: 0;
     box-sizing: border-box;
-    color: white;
+    color: rgb(219, 219, 211);
     background-color: rgb(180, 158, 60);
 }
 
@@ -76,7 +76,12 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    color: white;
+    // color: white;
+
+    h1 {
+        font-size: 10vw;
+        margin: 0;
+    }
 
     h3 {
         z-index: 9;
@@ -93,12 +98,6 @@ header {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-
-.section--intro > h1 {
-    font-size: 10vw;
-    margin: 0;
-    color: white;
 }
 
 .section--skills {
@@ -179,7 +178,7 @@ header {
             height: 60vh;
             background: $base;
             padding: 1em;
-            border-radius: 10px ;
+            border-radius: 10px;
             transition: all 0.5s;
             box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
                 rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
