@@ -31,4 +31,12 @@ export const ProjectsData = [
             url: "http://findurfilm.netlify.app",
         },
     ],
+    [
+        {
+            name: "ColorPicker",
+            src: "./images/colorPicker.png",
+            bio: "This is the bio for colorPicker",
+            url: "http://jeppe314.github.io/colorPicker",
+        },
+    ],
 ]
