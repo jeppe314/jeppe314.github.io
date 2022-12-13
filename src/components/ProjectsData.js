@@ -35,7 +35,7 @@ export const ProjectsData = [
         {
             name: "ColorPicker",
             src: "./images/colorPicker.png",
-            bio: "This is the bio for colorPicker",
+            bio: "This is the bio for colorpicker",
             url: "http://jeppe314.github.io/colorPicker",
         },
     ],
